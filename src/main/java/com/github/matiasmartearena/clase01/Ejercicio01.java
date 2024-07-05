@@ -10,7 +10,7 @@ public class Ejercicio01 {
 		
 		int numero = Consola.leerEntero();
 		
-		if (numero % 2 == 0 && numero % 3 == 0) {
+		if (numero % 2 == 0 || numero % 3 == 0) {
 			System.out.println("El numero es multiplo de 2 y 3");
 		} else {
 			System.out.println("El numero no es multiplo de 2 y 3");
