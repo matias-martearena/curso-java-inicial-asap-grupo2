@@ -1,11 +1,11 @@
 package com.github.matiasmartearena.clase01;
 
-import ar.edu.ort.p1.util.Consola;
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio03 {
-	
+
 	public static void main(String[] args) {
-		
+
 		int nota = Consola.leerEntero("Ingrese una nota...");
 
 		if (nota < 0 || nota > 10) {
@@ -23,4 +23,3 @@ public class Ejercicio03 {
 		}
 	}
 }
-

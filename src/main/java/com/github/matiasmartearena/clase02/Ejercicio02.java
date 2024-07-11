@@ -1,6 +1,6 @@
 package com.github.matiasmartearena.clase02;
 
-import ar.edu.ort.p1.util.Consola;
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio02 {
 
@@ -27,11 +27,11 @@ public class Ejercicio02 {
 					resultadoDos += i;
 				}
 			}
-			
+
 			System.out.println("El resultado de la suma de los divisores de " + numeroUno + " es: " + resultadoUno);
 			System.out.println("El resultado de la suma de los divisores de " + numeroDos + " es: " + resultadoDos);
 		}
-		
+
 		if (numeroUno == resultadoDos && numeroDos == resultadoUno) {
 			System.out.println("Los numeros: " + numeroUno + " y " + numeroDos + " son amigos :)");
 		} else {

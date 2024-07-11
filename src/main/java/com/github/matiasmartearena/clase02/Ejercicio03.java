@@ -1,6 +1,6 @@
 package com.github.matiasmartearena.clase02;
 
-import ar.edu.ort.p1.util.Consola;
+import com.github.sanchezih.util.io.Consola;
 
 public class Ejercicio03 {
 
