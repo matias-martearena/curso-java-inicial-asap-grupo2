@@ -1,4 +1,4 @@
-package com.github.matiasmartearena.clase05;
+package com.github.matiasmartearena.clase05.Ejercicio02;
 
 import java.util.HashMap;
 import java.util.Map;
