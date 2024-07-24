@@ -11,15 +11,15 @@ public class EmpleadoFijo extends Empleado {
 	@Override
 	public double mostrarSalario() {
 
-		int antiguedad = 2024 - ingreso;
-		double salarioCalculado = salario;
+		int antiguedad = 2024 - getIngreso();
+		double salarioCalculado = getSalario();
 
 		if (antiguedad >= 2 && antiguedad <= 5) {
-			salarioCalculado += salario * 0.05;
+			salarioCalculado += getSalario() * 0.05;
 		} else if (antiguedad >= 6 && antiguedad <= 10) {
-			salarioCalculado += salario * 0.10;
+			salarioCalculado += getSalario() * 0.10;
 		} else if (antiguedad > 10) {
-			salarioCalculado += salario * 0.15;
+			salarioCalculado += getSalario() * 0.15;
 		}
 
 		return salarioCalculado;

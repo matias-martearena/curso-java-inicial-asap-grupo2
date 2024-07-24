@@ -2,8 +2,8 @@ package com.github.matiasmartearena.clase06.Ejercicio01;
 
 public class EmpleadoComision extends Empleado {
 
-	int clientes;
-	int monto;
+	private int clientes;
+	private int monto;
 
 	/* ---------------------------------------------------------------- */
 

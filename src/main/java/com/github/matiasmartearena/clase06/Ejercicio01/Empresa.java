@@ -3,7 +3,7 @@ package com.github.matiasmartearena.clase06.Ejercicio01;
 import java.util.List;
 
 public class Empresa {
-	List<Empleado> empleados;
+	private List<Empleado> empleados;
 
 	public Empresa(List<Empleado> empleados) {
 		this.empleados = empleados;

@@ -2,11 +2,11 @@ package com.github.matiasmartearena.clase06.Ejercicio01;
 
 public abstract class Empleado {
 
-	int dni;
-	String nombre;
-	String apellido;
-	Integer ingreso;
-	double salario;
+	private int dni;
+	private String nombre;
+	private String apellido;
+	private Integer ingreso;
+	private double salario;
 
 	/* ---------------------------------------------------------------- */
 
@@ -25,7 +25,7 @@ public abstract class Empleado {
 	public String getNombreCompleto() {
 		return nombre + " " + apellido;
 	}
-	
+
 	/* ---------------------------------------------------------------- */
 
 	public int getDni() {
