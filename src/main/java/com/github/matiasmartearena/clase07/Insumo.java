@@ -3,11 +3,14 @@ package com.github.matiasmartearena.clase07;
 import com.github.sanchezih.util.math.Matematica;
 
 public class Insumo implements Facturable {
+
+    // ----------- Atributos ----------- //
     private String nombre;
     private double porcentaje;
     private double precioLista;
     private TipoDeInsumo tipo;
 
+    // ----------- Constructor ----------- //
     public Insumo (String nombre, double porcentaje, double precioLista, TipoDeInsumo tipo) {
         this.nombre = nombre;
         this.porcentaje = porcentaje;
@@ -15,11 +18,7 @@ public class Insumo implements Facturable {
         this.tipo = tipo;
     }
 
-    @Override
-    public double calcularFacturacion() {
-        return Matematica.sumarPorcentaje(this.precioLista, this.porcentaje);
-    }
-
+    // ----------- Getters y Setters ----------- //
     public String getNombre() {
         return nombre;
     }
@@ -52,4 +51,9 @@ public class Insumo implements Facturable {
         this.tipo = tipo;
     }
 
+    // ----------- Metodos ----------- //
+    @Override
+    public double calcularFacturacion() {
+        return Matematica.sumarPorcentaje(this.precioLista, this.porcentaje) * IVA;
+    }
 }
