@@ -1,5 +1,7 @@
 package com.github.matiasmartearena.clase07;
 
+import com.github.sanchezih.util.math.Matematica;
+
 public abstract class Servicio implements Facturable {
 
     // ----------- Atributos ----------- //
@@ -26,6 +28,6 @@ public abstract class Servicio implements Facturable {
     }
 
     public double calcularFacturacion() {
-        return calcularPrecio() * (IVA / 2);
+        return Matematica.sumarPorcentaje(calcularPrecio(), (IVA / 2));
     }
 }

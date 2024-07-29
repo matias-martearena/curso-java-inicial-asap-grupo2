@@ -54,6 +54,7 @@ public class Insumo implements Facturable {
     // ----------- Metodos ----------- //
     @Override
     public double calcularFacturacion() {
-        return Matematica.sumarPorcentaje(this.precioLista, this.porcentaje) * IVA;
+        double sumaFactura = Matematica.sumarPorcentaje(this.precioLista, this.porcentaje);
+        return Matematica.sumarPorcentaje(sumaFactura, IVA);
     }
 }

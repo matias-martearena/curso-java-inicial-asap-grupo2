@@ -15,14 +15,4 @@ public class ServicioArmado extends Servicio {
     public double getValorHora() {
         return VALOR_HORA;
     }
-
-    @Override
-    public double calcularPrecio() {
-        return super.calcularPrecio();
-    }
-
-    @Override
-    public double calcularFacturacion() {
-        return 1.12;
-    }
 }

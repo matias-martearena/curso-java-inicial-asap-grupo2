@@ -41,6 +41,6 @@ public class ServicioReparacion extends Servicio {
     }
 
     public boolean esServicioSimple() {
-        return this.dificultad > LIMITE_SIMPLEZA;
+        return this.dificultad <= LIMITE_SIMPLEZA;
     }
 }
