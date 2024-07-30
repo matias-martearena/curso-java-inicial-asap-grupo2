@@ -1,4 +1,4 @@
-package com.github.matiasmartearena.clase07;
+package com.github.grupo2.clase07;
 
 import java.util.ArrayList;
 import java.util.List;
