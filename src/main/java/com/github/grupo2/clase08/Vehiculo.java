@@ -1,4 +1,4 @@
-package com.github.grupo2.clase08.diagrama;
+package com.github.grupo2.clase08;
 
 public class Vehiculo {
 

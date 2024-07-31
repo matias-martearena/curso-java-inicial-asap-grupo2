@@ -1,6 +1,6 @@
-package com.github.grupo2.clase08.diagrama;
+package com.github.grupo2.clase08;
 
-public class Informe extends SedeDeLicencias {
+public class Informe {
 
     private double porcReprobados;
     private double promTiempoAutosAprobados;

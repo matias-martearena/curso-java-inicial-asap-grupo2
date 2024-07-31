@@ -1,6 +1,6 @@
-package com.github.grupo2.clase08.diagrama;
+package com.github.grupo2.clase08;
 
-public class Examen implements Evaluable {
+public abstract class Examen implements Evaluable {
 
     private String fecha;
     private Persona persona;
