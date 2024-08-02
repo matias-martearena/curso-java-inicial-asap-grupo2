@@ -2,37 +2,44 @@ package com.github.grupo2.clase08;
 
 public class Persona {
 
-    private String dni;
-    private String nombre;
-    private String apellido;
+	/**
+	 * Clase que representa a una Persona. Contiene información básica como DNI,
+	 * nombre y apellido.
+	 */
 
-    public Persona (String dni, String nombre, String apellido) {
-        this.dni = dni;
-        this.nombre = nombre;
-        this.apellido = apellido;
-    }
+	private String dni;
+	private String nombre;
+	private String apellido;
 
-    public String getDni() {
-        return dni;
-    }
+	public Persona(String dni, String nombre, String apellido) {
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido = apellido;
+	}
 
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
+	// Métodos getters y setters
 
-    public String getNombre() {
-        return nombre;
-    }
+	public String getDni() {
+		return dni;
+	}
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
 
-    public String getApellido() {
-        return apellido;
-    }
+	public String getNombre() {
+		return nombre;
+	}
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
 }

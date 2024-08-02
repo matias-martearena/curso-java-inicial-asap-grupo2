@@ -2,37 +2,44 @@ package com.github.grupo2.clase08;
 
 public class Vehiculo {
 
-    private String patente;
-    private String marca;
-    private int cilindrada;
+	/**
+	 * Clase que representa un vehículo. Contiene información básica como patente,
+	 * marca y cilindrada.
+	 */
 
-    public Vehiculo(String patente, String marca, int cilindrada) {
-        this.patente = patente;
-        this.marca = marca;
-        this.cilindrada = cilindrada;
-    }
+	private String patente;
+	private String marca;
+	private int cilindrada;
 
-    public String getPatente() {
-        return patente;
-    }
+	public Vehiculo(String patente, String marca, int cilindrada) {
+		this.patente = patente;
+		this.marca = marca;
+		this.cilindrada = cilindrada;
+	}
 
-    public void setPatente(String patente) {
-        this.patente = patente;
-    }
+	// Métodos getters y setters
 
-    public String getMarca() {
-        return marca;
-    }
+	public String getPatente() {
+		return patente;
+	}
 
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
+	public void setPatente(String patente) {
+		this.patente = patente;
+	}
 
-    public int getCilindrada() {
-        return cilindrada;
-    }
+	public String getMarca() {
+		return marca;
+	}
 
-    public void setCilindrada(int cilindrada) {
-        this.cilindrada = cilindrada;
-    }
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public int getCilindrada() {
+		return cilindrada;
+	}
+
+	public void setCilindrada(int cilindrada) {
+		this.cilindrada = cilindrada;
+	}
 }
